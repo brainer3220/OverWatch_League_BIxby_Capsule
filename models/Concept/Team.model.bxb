@@ -1,0 +1,7 @@
+structure (Team) {
+  description (__DESCRIPTION__)
+  property (team_name) {
+    type (Team_Name)
+    min (Optional) max (One)
+  }
+}

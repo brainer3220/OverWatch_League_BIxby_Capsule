@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Find_All_Team) {
+      accepted-inputs (Team)
+      local-endpoint ("Find_All_Team")
+    }
+  }
+}
