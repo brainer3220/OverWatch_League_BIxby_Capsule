@@ -1,4 +1,5 @@
 train (t-zmyl5zl98mimb8wdi3g58e7zo) {
-  utterance (서울 다이너스티의 선수들 보여줘.)
-  last-modified (1566824859503)
+  utterance ("[g:Team] (서울 다이너스티)[v:Team_Name]의 선수들 보여줘.")
+  plan (Y2BmEEkqSszMSy3SSy0uyC8qKdYLSU3MZZBFF3XLzEuJd8zJiQdLS2LTFO+XmJvKwMTACMQMQJKRAQSYIBgA)
+  last-modified (1567237349051)
 }
