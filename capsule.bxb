@@ -1,14 +1,26 @@
 capsule {
   id (brainer.esports)
-  version (0.1.0)
+  version (0.0.1)
   format (3)
-  targets {
-    // target (bixby-mobile-en-US)
-    target (bixby-mobile-ko-KR)
+  store-countries {
+    all
   }
-  runtime-flags {
-    concepts-inherit-super-type-features
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
+  runtime-version (5)
+  targets {
+    target (bixby-mobile-ko-KR)
+    // target (bixby-watch-ko-KR)
+    // target (bixby-tv-ko-KR)
+    }
+  capsule-imports {
+    import (viv.geo)  {
+      as (geo)
+      version (9.26.57)
+    }
+    import (viv.time) {
+    as (time) version(3.1.144) 
+    }
+  }
+  store-sections {
+    section (Local)
   }
 }

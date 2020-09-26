@@ -1,9 +1,9 @@
 module.exports.function = function find_All_Team (Team_Name) {
 
-  const dates = require("console");
+  var console = require('console');
   const http = require ("http");
 
-  let Team_Name = []
+  let Team_Name
   let ret = []
 
   let options = {
@@ -13,8 +13,8 @@ module.exports.function = function find_All_Team (Team_Name) {
     },
   };
 
-  let response = http.getUrl('https://api.overwatchleague.com./v2/teams', options);
-  console.log(response)
+  let response = http.getUrl('https://api.overwatchleague.com/v2/teams/4409', options);
+  console.log("response: ", response);
 
-  return {}
+  return response
 }
