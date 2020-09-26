@@ -1,10 +1,10 @@
 action (Find_All_Team) {
   description (모든 team을 찾는 Action)
-  collect {
-    input (team_name) {
-     type (Team_Name)
-     min (Required) max (One)
-    }
-  }
+  // collect {
+  //   input (team_name) {
+  //    type (Team_Name)
+  //    min (Required) max (One)
+  //   }
+  // }
   output (Team)
 }
