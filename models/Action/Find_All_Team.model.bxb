@@ -3,7 +3,7 @@ action (Find_All_Team) {
   collect {
     input (team_name) {
      type (Team_Name)
-     min (Optional) max (One)
+     min (Required) max (One)
     }
   }
   output (Team)

@@ -8,17 +8,17 @@ capsule {
   runtime-version (5)
   targets {
     target (bixby-mobile-ko-KR)
-    // target (bixby-watch-ko-KR)
-    // target (bixby-tv-ko-KR)
+    target (bixby-watch-ko-KR)
+    target (bixby-tv-ko-KR)
     }
   capsule-imports {
-    import (viv.geo)  {
-      as (geo)
-      version (9.26.57)
-    }
-    import (viv.time) {
-    as (time) version(3.1.144) 
-    }
+    // import (viv.geo)  {
+    //   as (geo)
+    //   version (9.26.57)
+    // }
+    // import (viv.time) {
+    // as (time) version(3.1.144) 
+    // }
   }
   store-sections {
     section (Local)

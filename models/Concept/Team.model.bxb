@@ -1,7 +1,7 @@
 structure (Team) {
-  description (__DESCRIPTION__)
+  description (OWL 팀들의 정보)
   property (team_name) {
     type (Team_Name)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
 }

@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (Find_All_Team) {
-      accepted-inputs (Team)
+      // accepted-inputs ()
       local-endpoint ("Find_All_Team.js")
     }
   }
